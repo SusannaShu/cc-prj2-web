@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../pageStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .container {
+        display: grid;
+        grid-template-rows: 10vh auto;
+        height: 100vh;
+      }
+
+      .header {
+        display: flex;
+        font-size: 4vw;
+        justify-content: center;
+        align-items: center;
+        color: hotpink;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        /* grid-template-rows: repeat(2, 1fr); */
+        
+      }
+
+      .grid-item {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .item1 {
+        background-image: url('https://portfolio.newschool.edu/shux453/files/2023/05/7_Susanna_Shu-746x1024.jpg');
+      }
+      .item2 {
+        background-image: url('https://portfolio.newschool.edu/shux453/files/2022/11/Susanna_self_portrait_2d-768x1024.jpg');
+      }
+      .item3 {
+        background-image: url('https://portfolio.newschool.edu/shux453/files/2022/11/Susanna_self_portrait_3d-2-768x1024.jpeg');
+      }
+      .item4 {
+        background-image: url('https://portfolio.newschool.edu/shux453/files/2022/10/concept_photo-1024x768.jpeg');
+      }
+    </style>
+    <title>Self Portrait</title>
+  </head>
+  <body>
+    <div class="container">
+      <a href="../FahsionArt.html"><div class="header">Back</div></a>
+
+      <div class="grid-container">
+        <div class="grid-item item1"></div>
+        <div class="grid-item item2"></div>
+        <div class="grid-item item3"></div>
+        <div class="grid-item item4"></div>
+      </div>
+    </div>
+  </body>
+</html>

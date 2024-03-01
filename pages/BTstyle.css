@@ -1,0 +1,97 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-flow: column;
+}
+
+.inner-container {
+  display: flex;
+  flex-grow: 1;
+  width: 100vw;
+}
+
+.header {
+  height: 10vh;
+  display: flex;
+  font-size: 4vw;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.header:hover {
+  color: white;
+  background-color: hotpink;
+}
+
+.prj1 {
+  background-image: repeating-linear-gradient(
+    45deg,
+    /* Angle of the stripes */ black,
+    /* Start color */ black 1px,
+    /* First color end position */ transparent 1px,
+    /* Second color start position */ transparent 20px
+      /* Second color end position */
+  );
+}
+
+.prj1:hover {
+  background-image: url('https://res.cloudinary.com/sheyou/image/upload/v1709288994/IMG_7480_669d6c44b4.jpg');
+  background-size: cover;
+}
+
+.prj2 {
+  background-color: white; /* Base color */
+  background-image: radial-gradient(black 10%, transparent 10%);
+  background-size: 10px 10px; /* Size of the dots and spacing */
+}
+
+.prj2:hover {
+  background-image: url('https://i.pinimg.com/564x/f9/54/2c/f9542c8f067f8198500ab5e5df6d6c59.jpg');
+  background-size: cover;
+}
+
+.prj3 {
+  background-image: linear-gradient(to right, #000000 1px, transparent 1px),
+    linear-gradient(to bottom, #000000 1px, transparent 1px);
+
+  background-size: 20px 20px;
+}
+
+.prj3:hover {
+  background-image: url('https://res.cloudinary.com/sheyou/image/upload/v1656009601/logo_7adb1439dc.png');
+  background-size: cover;
+}
+
+.prj {
+  display: flex;
+  width: 33.3vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  /* font-weight: bold; */
+  color: black;
+  text-align: center;
+}
+/* 
+.prj:hover {
+  background-color: black;
+} */
+
+a {
+  text-decoration: none;
+}
+
+.text {
+  color: hotpink;
+}
+
+.text:hover {
+  color: black;
+  background-image: radial-gradient(circle, hotpink, transparent);
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../pageStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+       rel="stylesheet"
+     />
+    <style>
+      .container {
+        display: grid;
+        grid-template-rows: auto 10vh;
+        height: 100vh;
+      }
+
+      .header {
+        display: flex;
+        font-size: 4vw;
+        justify-content: center;
+        align-items: center;
+        color: hotpink;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(2, 2fr);
+      }
+
+      .grid-item {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .item1 {
+        background-image: url('https://res.cloudinary.com/sheyou/image/upload/v1709288993/ossg_v1_screenshot_eaa0c67cf1.jpg');
+      }
+      .item2 {
+        background-image: url('https://res.cloudinary.com/sheyou/image/upload/v1709288993/v0p5_board_render_13ac4025a3.png');
+      }
+      .item3 {
+        background-image: url('https://res.cloudinary.com/sheyou/image/upload/v1709288994/IMG_7480_669d6c44b4.jpg');
+      }
+     
+      .item4{
+        background-image: url('https://res.cloudinary.com/sheyou/image/upload/v1709288994/IMG_7437_b98bc7ceb4.jpg');
+      }
+      /* .item5{
+        background-image: url('https://bpb-us-w2.wpmucdn.com/portfolio.newschool.edu/dist/2/36613/files/2022/08/WechatIMG451-169x300.png');
+      } */
+    </style>
+    <title>Wearable Tech</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="grid-container">
+        <div class="grid-item item2"></div>
+        <div class="grid-item item1"></div>
+        <div class="grid-item item3"></div>
+        <div class="grid-item item4"></div>
+
+      </div>
+      <a href="../BusinessTech.html"><div class="header">Back</div></a>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.color-container {
+  position: absolute;
+  z-index: 1;
+}
+
+.left-container {
+  display: flex;
+  height: 100vh;
+  width: 50vw;
+  background-color: rgba(255, 105, 180, 0.5);
+}
+
+.right-container {
+  display: flex;
+  height: 100vh;
+  width: 50vw;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.background-container {
+  position: absolute;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center; /* Aligns horizontally */
+  align-items: flex-end; /* Aligns vertically at the bottom */
+  background-image: url('https://res.cloudinary.com/sheyou/image/upload/v1708711855/Subject_8e78de5e06.png'); /* Your image link */
+  background-position: center bottom; /* Center the background image at the bottom */
+  background-repeat: no-repeat;
+  background-size: 65vh;
+  z-index: 2;
+}
+
+.content-container {
+  position: absolute;
+  z-index: 3;
+}
+
+.text1 {
+  left: 0;
+  display: flex;
+  height: 100vh;
+  width: 50vw;
+  color: white;
+  font-size: 6vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1:hover{
+background-color:black ;
+}
+
+.text2 {
+  right: 0;
+  display: flex;
+  height: 100vh;
+  width: 50vw;
+  color:hotpink;
+  font-size: 6vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.text2:hover{
+    background-color: black;
+}

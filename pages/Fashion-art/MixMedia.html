@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../pageStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+       rel="stylesheet"
+     />
+    <title>Mix Media</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-rows: 10vh auto;
+        height: 100vh;
+      }
+
+      .header {
+        display: flex;
+        font-size: 4vw;
+        justify-content: center;
+        align-items: center;
+        color: hotpink;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(2, 2fr);
+      }
+
+      .grid-item {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .item1 {
+        background-image: url('https://portfolio.newschool.edu/shux453/files/2023/05/5_Susanna_Shu-1-1024x1010.jpg');
+      }
+      .item2 {
+        background-image: url('https://portfolio.newschool.edu/shux453/files/2023/05/2_Susanna_Shu-1-1024x753.jpg');
+      }
+      .item3 {
+        background-image: url('https://portfolio.newschool.edu/shux453/files/2023/05/IMG_4440-1024x746.jpg');
+      }
+      .item4 {
+        background-image: url('https://res.cloudinary.com/sheyou/image/upload/v1708723359/Screen_Shot_2024_02_23_at_4_22_21_PM_92eddb8f68.png');
+      }
+     
+      /* .item5{
+        background-image: url('https://bpb-us-w2.wpmucdn.com/portfolio.newschool.edu/dist/2/36613/files/2022/08/WechatIMG451-169x300.png');
+      } */
+    </style>
+    <title>Self Portrait</title>
+  </head>
+  <body>
+    <div class="container">
+      <a href="../FahsionArt.html"><div class="header">Back</div></a>
+
+      <div class="grid-container">
+        <div class="grid-item item2"></div>
+        <div class="grid-item item1"></div>
+        <div class="grid-item item3"></div>
+         <div class="grid-item item4"></div>
+        <!--<div class="grid-item item5"></div> -->
+      </div>
+    </div>
+  </body>
+</html>

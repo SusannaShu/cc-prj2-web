@@ -1,0 +1,89 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-flow: column;
+}
+
+.inner-container {
+  display: flex;
+  flex-grow: 1;
+  width: 100vw;
+}
+
+.header {
+  height: 10vh;
+  display: flex;
+  font-size: 4vw;
+  justify-content: center;
+  align-items: center;
+  color: hotpink;
+}
+
+.header:hover {
+  color: white;
+  background-color: black;
+}
+
+.prj1 {
+  background-color: rgba(255, 105, 180, 0.4);
+}
+
+.prj1:hover{
+    background-image: url("https://bpb-us-w2.wpmucdn.com/portfolio.newschool.edu/dist/2/36613/files/2022/08/WechatIMG458-1-768x1024.jpeg");
+    background-size:cover;
+}
+
+.prj2 {
+  background-color: rgba(255, 105, 180, 0.6);
+}
+
+.prj2:hover{
+    background-image: url("https://portfolio.newschool.edu/shux453/files/2023/05/IMG_4439-1024x726.jpg");
+    background-size:cover;
+}
+
+.prj3 {
+  background-color: rgba(255, 105, 180, 0.8);
+}
+
+.prj3:hover{
+    background-image: url("https://portfolio.newschool.edu/shux453/files/2023/05/1_Susanna_Shu-1024x772.jpg");
+    background-size:cover;
+}
+
+.prj {
+  display: flex;
+  width: 33.3vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  /* font-weight: bold; */
+  color: black;
+  text-align: center;
+}
+/* 
+.prj:hover {
+  background-color: black;
+} */
+
+a {
+  text-decoration: none;
+}
+
+.text {
+  color: white;
+}
+
+.text:hover {
+  color: white;
+  background-image: radial-gradient(
+    circle,
+    hotpink,
+    transparent
+  ); 
+}

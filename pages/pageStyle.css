@@ -1,0 +1,85 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    flex-flow: column;
+  }
+  
+  .inner-container {
+    display: flex;
+    flex-grow: 1;
+    width: 100vw;
+  }
+  
+  .header {
+    height: 10vh;
+    display: flex;
+    font-size: 5vw;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  
+  .header:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  .prj1 {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .prj1:hover{
+      background-image: url("https://cdn.glitch.global/08102b86-f9d6-48c2-bc22-bce886db6e22/IMG_6905.JPG?v=1708724059589");
+      background-size:cover;
+  }
+  
+  .prj2 {
+    background-color: rgba(0,0,0, 0.6);
+  }
+  
+  .prj2:hover{
+      background-image: url("https://i.pinimg.com/564x/f9/54/2c/f9542c8f067f8198500ab5e5df6d6c59.jpg");
+      background-size:cover;
+  }
+  
+  .prj3 {
+    background-color: rgba(0,0,0, 0.8);
+  }
+  
+  .prj3:hover{
+      background-image: url("https://res.cloudinary.com/sheyou/image/upload/v1656009601/logo_7adb1439dc.png");
+      background-size:cover;
+  }
+  
+  .prj {
+    display: flex;
+    width: 33.3vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    /* font-weight: bold; */
+    color: black;
+    text-align: center;
+  }
+  /* 
+  .prj:hover {
+    background-color: black;
+  } */
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .text {
+    color: white;
+  }
+  
+  .text:hover {
+    color: black;
+  }
+  
